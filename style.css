@@ -1,20 +1,19 @@
-nav {
+/* nav {
     display: flex;
     justify-content: end;
     gap: 10px;
-}
-
+}*/
 #home{
    position: relative;
    width: 100%;
    display: flex;
    justify-content:center;
    align-items: center;
+   background-image: linear-gradient(to right, rgba(144, 238, 144, 0.153), white);
 }
 #home .text-div{
    position: relative;
    max-width: 600px;
-   background-color: beige;
    padding-left: 20px;
 }
 #home .text-div h1{
@@ -34,106 +33,168 @@ nav {
    letter-spacing: 1px;
    text-decoration: none;
 }
-.main{
+/* @media (min-width:641px) {
+   .main {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .join-text-img {
+      display: flex;
+      justify-content: center;
+   }
+
+   .img-hed-p {
+      box-shadow: 3px 3px 3px 3px;
+      width: 17%;
+      height: auto;
+      margin: 10px;
+      display: flex;
+   }
+
+   .content {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+   }
+
+   .img-hed-p {
+      box-shadow: 3px 3px 3px 3px;
+      width: 17%;
+      height: auto;
+      margin: 10px;
+      display: flex;
+   }
+
+}
+
+.main {
    position: relative;
    width: 100%;
-   display: flex;
-   justify-content:center;
+   justify-content: center;
    align-items: center;
 }
-.main .text{
+
+.main .text {
    position: relative;
    max-width: 600px;
    background-color: beige;
    padding-left: 20px;
 }
-.main .text h3{
+
+.main .text h3 {
    color: blue;
 }
-.main .text h2{
+
+.main .text h2 {
    color: darkblue;
 }
-.main .text p{
+
+.main .text p {
    color: gray;
 }
-.main .text a{
+
+.main .text a {
    display: inline-block;
    margin-top: 20px;
-   padding:15px;
+   padding: 15px;
    background-color: blue;
    color: white;
    border-radius: 10px;
    letter-spacing: 1px;
    text-decoration: none;
 }
-h4{
+
+h4 {
    text-align: center;
    color: blue;
 }
-.join-text-img{
-   display: flex;
-  justify-content: center;
-}
-.join{
+
+
+.join {
    box-shadow: 2px 2px 2px 2px;
    margin: 10px;
    height: auto;
    max-width: 300px;
 }
-.join h2{
+
+.join h2 {
    text-align: center;
    color: darkblue;
 }
-.join p{
+
+.join p {
    text-align: center;
    color: gray;
 }
-.join img{
-  display: flex;
-  margin: auto;
+
+.join img {
+   display: flex;
+   margin: auto;
 }
-h2{
+
+h2 {
    text-align: center;
    color: darkblue;
 }
-.Img-hed-p{
+
+.img-hed-p {
    box-shadow: 3px 3px 3px 3px;
-   width: 17%;
+   max-width: 300px;
    height: auto;
    margin: 10px;
    display: flex;
 }
-.Img-hed-p img{
+
+.img-hed-p img {
    height: 50px;
    width: 50px;
    margin: 10px;
 }
-.Img-hed-p h1{
+
+.img-hed-p h1 {
    color: darkblue;
 }
-.Img-hed-p p{
+
+.img-hed-p p {
    color: gray;
    margin-top: 30%;
    margin-left: -30%;
 }
-.content{
-   display: flex;
+
+.content {
    justify-content: center;
    margin-top: 50px;
 }
-.aboutLastPage{
+
+.aboutLastPage {
    display: flex;
    margin-top: 10%;
-   text-align: center;
+   margin-left: 90px;
 }
-.aboutLastPage img{
-   max-width: 50%;
-   max-height: auto;
+
+.aboutLastPage h1 {
+   color: darkblue;
 }
-.aboutLastPage a{
+
+.aboutLastPage img {
+   max-width: 60%;
+   max-height: 99%;
+}
+
+.aboutLastPage h2 {
+   color: darkblue;
+}
+
+.aboutLastPage a {
    margin: 5px;
-}
-.services-main{
+   text-decoration: none;
+} */
+
+/* .services-main{
    text-align: center;
 }
 .services{
@@ -173,8 +234,8 @@ button{
   border: none;
   color: green;
   background-color: white;
-}
-.team-main{
+} */
+/* .team-main{
    text-align: center;
 }
 .team{
@@ -208,8 +269,8 @@ button{
 }
 .card h1{
    text-align: center;
-}
-.blog-main{
+} */
+/* .blog-main{
    text-align: center;
    color: #4154f1;
 }
@@ -249,4 +310,88 @@ button{
 }
 button{
    border: none;
+}  */
+
+/* .contact {
+   background-color: rgba(174, 227, 245, 0.364);
+   padding: 20px;
 }
+
+.contact h1 {
+   color: darkblue;
+   text-align: center;
+}
+
+.contact p {
+   color: gray;
+   text-align: center;
+}
+
+.contact input {
+   padding: 10px;
+   width: 40%;
+   margin-left: 25%;
+   margin-bottom: 10px;
+}
+
+.contact button {
+   padding: 10px;
+   border-radius: 5px;
+   background-color: blue;
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+@media (max-width:375px) {
+   .contact button {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      margin-left: 80px;
+   }
+} */
+
+/* @media (min-width:670px) {
+   .textcontact {
+      background-color: white;
+      padding: 20px;
+      display: flex;
+   }
+   .textcontact h3{
+      text-align: center;
+      color: darkblue;
+   }
+   
+}
+.textcontact h3{
+   color: darkblue;
+}
+.textcontact p{
+   color: gray;
+}
+.textcontact li {
+   margin: 20px;
+   list-style-type: none;
+   color: blue;
+   font-weight: 400;
+}
+
+.textcontact .address span {
+   color: black;
+   font-weight: 600;
+}
+.textcontact .address li {
+   color: black;
+}
+
+.copyright{
+   text-align: center;
+   color: darkblue;
+}
+.copyright span{
+   font-weight: 700;
+} */
