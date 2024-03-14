@@ -6,11 +6,14 @@ header{
 nav{
    width: 100%;
    height: auto;
-   background-color: white;
+   background-color: cornsilk;
    color: black;
    display: flex;
    justify-content: space-between;
    align-items: center;
+}
+.img-hed{
+   display: flex;
 }
 nav a{
    text-decoration: none;
@@ -68,7 +71,7 @@ nav a{
  
 
  @media (min-width:641px) {
-   .about {
+   #about {
       position: relative;
       width: 100%;
       display: flex;
@@ -105,7 +108,7 @@ nav a{
 
 }
 
-.about {
+#about {
    position: relative;
    width: 100%;
    justify-content: center;
@@ -113,18 +116,18 @@ nav a{
    margin-top: 15px;
 }
 
-.about .text {
+#about .text {
    position: relative;
    max-width: 600px;
    background-color: beige;
    padding-left: 20px;
 }
 
-.about .text h3 {
+#about .text h3 {
    color: blue;
 }
 
-.about .text h2 {
+#about .text h2 {
    color: darkblue;
 }
 
@@ -132,7 +135,7 @@ nav a{
    color: gray;
 }
 
-.about .text a {
+#about .text a {
    display: inline-block;
    margin-top: 20px;
    padding: 15px;
@@ -359,29 +362,29 @@ button{
 border-radius: 5px;
 }
 
- .contact {
+ #contact {
    background-color: rgba(174, 227, 245, 0.364);
    padding: 20px;
 }
 
-.contact h1 {
+#contact h1 {
    color: darkblue;
    text-align: center;
 }
 
-.contact p {
+#contact p {
    color: gray;
    text-align: center;
 }
 
-.contact input {
+#contact input {
    padding: 10px;
    width: 40%;
    margin-left: 25%;
    margin-bottom: 10px;
 }
 
-.contact button {
+#contact button {
    padding: 10px;
    border-radius: 5px;
    background-color: blue;
@@ -391,7 +394,7 @@ border-radius: 5px;
 }
 
 @media (max-width:375px) {
-   .contact button {
+   #contact button {
       padding: 10px;
       border-radius: 5px;
       background-color: blue;
